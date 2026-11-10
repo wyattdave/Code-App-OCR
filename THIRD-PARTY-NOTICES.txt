@@ -1,0 +1,107 @@
+ReceiptOCR third-party components
+================================
+
+This inventory covers components distributed in the single browser script and
+the English model distributed for rebuilding. Copyright statements and full
+upstream license texts are retained in licenses/. They are also embedded into
+the generated browser script so the notices accompany single-file deployment.
+Do not remove the license banner when redistributing the browser script.
+
+Direct components
+-----------------
+
+Tesseract.js-core 3.0.1, tesseract-core.asm.js
+  License: Apache-2.0
+  Source: https://github.com/naptha/tesseract.js-core/tree/v3.0.1
+  License text: licenses/tesseract-core.txt
+  SHA-256: 74f5e06a95c3a6611575b180462549998350ace14e95bb98c6d3ea73d8f5faf7
+
+tessdata_fast 4.1.0 English model, eng.traineddata
+  License: Apache-2.0
+  Source: https://github.com/tesseract-ocr/tessdata_fast/tree/4.1.0
+  License text: licenses/english-model.txt
+  Uncompressed SHA-256: 7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2
+
+fflate 0.8.3, synchronous gzip decompressor
+  License: MIT
+  Copyright (c) 2026 Arjun Barrett (as stated in the installed 0.8.3 license)
+  Source: https://github.com/101arrowz/fflate
+  License text: licenses/fflate.txt
+
+Historical native engine and image libraries
+-------------------------------------------
+
+The asm.js file in npm 3.0.1 is the unchanged artifact from core commit
+3fd64919d234bab910c20d1869957f135aab539c (2020-03-19). Its SHA-256 was compared
+with the installed artifact. This is NOT the newer WebAssembly build described
+by the 3.0.1 tag's later third_party directory. The historical build README and
+nested submodules establish the following provenance:
+
+https://github.com/naptha/tesseract.js-core/tree/3fd64919d234bab910c20d1869957f135aab539c
+
+Tesseract 4.1.1-based engine (runtime: 4.1.1-56-gbe45)
+  License: Apache-2.0
+  Fork revision: jeromewu/tesseract@91b8bd30daf2bb8eb0fe4283a6225d589a50bb9c
+  License text: licenses/tesseract.txt
+
+Leptonica 1.74.2
+  License: BSD-2-Clause
+  Fork revision: jeromewu/leptonica@6b5bbc8606491d0348a7c955d4eac39f032a22f7
+  License text: licenses/leptonica.txt
+
+zlib 1.2.5
+  License: Zlib
+  Revision: madler/zlib@9712272c78b9d9c93746d9c8e156a3728c65ca72
+  License text and upstream README: licenses/zlib.txt
+
+libpng 1.4.22
+  License: Libpng (historical libpng license, not the later libpng-2.0 license)
+  Revision: glennrp/libpng@d53f4696fff0b576a404b6c917392467ffc5df1a
+  License text: licenses/libpng.txt
+
+Independent JPEG Group libjpeg 8d (reported as 8.4.0 by the build README)
+  License: IJG
+  Revision: LuaDist/libjpeg@96494cfa9de89eb48cdfe79653c15edf844a46c0
+  License text and upstream README: licenses/libjpeg.txt
+  This software is based in part on the work of the Independent JPEG Group.
+
+libtiff 3.9.4
+  License: libtiff's permissive copyright license
+  Revision: libtiff/libtiff@5ebb9f949b96993238ddef55b7601db3d9989d41
+  License text: licenses/libtiff.txt
+
+Compiler-generated JavaScript and linked runtime support
+-------------------------------------------------------
+
+The historical build used Emscripten 1.39.10 upstream. The following upstream
+runtime notices are included for code incorporated by that toolchain. This does
+not mean that the complete compiler or every function in these runtimes is
+redistributed; link-time selection removes unused code.
+
+Emscripten 1.39.10 JavaScript support
+  License: MIT OR NCSA; includes Node.js-derived path code under MIT
+  License text: licenses/emscripten.txt
+  Upstream author list: licenses/emscripten-authors.txt
+
+musl libc bundled by Emscripten 1.39.10
+  License: MIT with the third-party notices documented in its COPYRIGHT file
+  License text and attribution: licenses/musl.txt
+
+LLVM libc++, libc++abi, compiler-rt bundled by Emscripten 1.39.10
+  Full upstream licenses, including LLVM exceptions and legacy notices:
+  licenses/libcxx.txt, licenses/libcxxabi.txt, licenses/compiler-rt.txt
+
+dlmalloc 2.8.6 bundled by Emscripten 1.39.10
+  Doug Lea's public-domain/CC0 dedication, extracted verbatim from its header:
+  licenses/dlmalloc.txt
+
+Build-only npm tools
+--------------------
+
+esbuild 0.28.2 is a build tool, not part of the browser OCR runtime.
+Its upstream MIT license is retained in licenses/esbuild.txt. Its executable
+and node_modules are not included in this repository or the release file.
+
+Exact license-source URLs, artifact revisions, SHA-256 values, and extraction
+notes are recorded in licenses/sources.json. These notices document licensing
+and attribution, not a security endorsement of the historical native libraries.

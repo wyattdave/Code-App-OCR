@@ -1,0 +1,24 @@
+ReceiptOCR integration for Petty Cash App - 2026-09-07
+
+User-supplied ReceiptOCR 1.0.0 was the input to this project.
+The wrapper has been modified in 2026 to add photo preprocessing, multiple
+OCR passes, key-field extraction, and diagnostics. The compiled JavaScript
+engine and embedded English model are preserved. All original license notices
+remain included in the rebuilt browser artifact.
+Original input SHA-256: 15c9cb682248d64580780b3385b0fac380a67e84c7a05283eea34864cbcbfc48
+
+ReceiptOCR wrapper: Apache-2.0. See LICENSE and the original NOTICE.
+Bundled components retain their licenses. See THIRD-PARTY-NOTICES.txt,
+licenses/, and the full license texts embedded in receipt-ocr.js.
+This software is based in part on the work of the Independent JPEG Group.
+
+OCRAD and its source/license assets are no longer part of this distribution.
+The custom library uses Tesseract asm.js internally, NOT the removed
+worker/WebAssembly Tesseract integration. No runtime download is required.
+
+Run npm run build in this project to rebuild the single-file distribution.
+vendor/provenance.json records the extracted engine/model hashes. The build
+verifies those hashes before writing the output. See README.md for integration.
+
+All results need human review. The legacy compiled engine still requires
+organizational security/license review; this notice is not release approval.

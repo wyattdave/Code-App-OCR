@@ -1,0 +1,2988 @@
+{
+  "summary": {
+    "status": "NOT COMPLETE",
+    "annotationStatus": "Provisional manual transcription; ambiguous and obscured fields noted in tests/expected.csv. User review still required.",
+    "labelsSHA256": "b1d052b2ad8c2d932213759215fdd5bdc931a459aaba4720d404c40617ad7b38",
+    "input": "test-results/financial-v1.2.json",
+    "datasetImages": 200,
+    "processed": 200,
+    "receiptPasses": 61,
+    "totalAndTaxPasses": 145,
+    "totalTaxDatePasses": 125,
+    "errors": 0,
+    "processingMs": {
+      "count": 200,
+      "median": 33176.5,
+      "p95": 56553,
+      "min": 8295,
+      "max": 85994
+    },
+    "run": {
+      "startedAt": "2026-11-07T22:12:52.859Z",
+      "scriptSHA256": "fe7480a14494322aa82f57715ef2e963038b2ff7de9a884020aee9e1fa11e566",
+      "files": [
+        "1000-receipt.jpg",
+        "1001-receipt.jpg",
+        "1002-receipt.jpg",
+        "1003-receipt.jpg",
+        "1004-receipt.jpg",
+        "1005-receipt.jpg",
+        "1006-receipt.jpg",
+        "1007-receipt.jpg",
+        "1008-receipt.jpg",
+        "1009-receipt.jpg",
+        "1010-receipt.jpg",
+        "1011-receipt.jpg",
+        "1012-receipt.jpg",
+        "1013-receipt.jpg",
+        "1014-receipt.jpg",
+        "1015-receipt.jpg",
+        "1016-receipt.jpg",
+        "1017-receipt.jpg",
+        "1018-receipt.jpg",
+        "1019-receipt.jpg",
+        "1020-receipt.jpg",
+        "1021-receipt.jpg",
+        "1022-receipt.jpg",
+        "1023-receipt.jpg",
+        "1024-receipt.jpg",
+        "1025-receipt.jpg",
+        "1026-receipt.jpg",
+        "1027-receipt.jpg",
+        "1028-receipt.jpg",
+        "1029-receipt.jpg",
+        "1030-receipt.jpg",
+        "1031-receipt.jpg",
+        "1032-receipt.jpg",
+        "1033-receipt.jpg",
+        "1034-receipt.jpg",
+        "1035-receipt.jpg",
+        "1036-receipt.jpg",
+        "1037-receipt.jpg",
+        "1038-receipt.jpg",
+        "1039-receipt.jpg",
+        "1040-receipt.jpg",
+        "1041-receipt.jpg",
+        "1042-receipt.jpg",
+        "1043-receipt.jpg",
+        "1044-receipt.jpg",
+        "1045-receipt.jpg",
+        "1046-receipt.jpg",
+        "1047-receipt.jpg",
+        "1048-receipt.jpg",
+        "1049-receipt.jpg",
+        "1050-receipt.jpg",
+        "1051-receipt.jpg",
+        "1052-receipt.jpg",
+        "1053-receipt.jpg",
+        "1054-receipt.jpg",
+        "1055-receipt.jpg",
+        "1056-receipt.jpg",
+        "1057-receipt.jpg",
+        "1058-receipt.jpg",
+        "1059-receipt.jpg",
+        "1060-receipt.jpg",
+        "1061-receipt.jpg",
+        "1062-receipt.jpg",
+        "1063-receipt.jpg",
+        "1064-receipt.jpg",
+        "1065-receipt.jpg",
+        "1066-receipt.jpg",
+        "1067-receipt.jpg",
+        "1068-receipt.jpg",
+        "1069-receipt.jpg",
+        "1070-receipt.jpg",
+        "1071-receipt.jpg",
+        "1072-receipt.jpg",
+        "1073-receipt.jpg",
+        "1074-receipt.jpg",
+        "1075-receipt.jpg",
+        "1076-receipt.jpg",
+        "1077-receipt.jpg",
+        "1078-receipt.jpg",
+        "1079-receipt.jpg",
+        "1080-receipt.jpg",
+        "1081-receipt.jpg",
+        "1082-receipt.jpg",
+        "1083-receipt.jpg",
+        "1084-receipt.jpg",
+        "1085-receipt.jpg",
+        "1086-receipt.jpg",
+        "1087-receipt.jpg",
+        "1088-receipt.jpg",
+        "1089-receipt.jpg",
+        "1090-receipt.jpg",
+        "1091-receipt.jpg",
+        "1092-receipt.jpg",
+        "1093-receipt.jpg",
+        "1094-receipt.jpg",
+        "1095-receipt.jpg",
+        "1096-receipt.jpg",
+        "1097-receipt.jpg",
+        "1098-receipt.jpg",
+        "1099-receipt.jpg",
+        "1100-receipt.jpg",
+        "1101-receipt.jpg",
+        "1102-receipt.jpg",
+        "1103-receipt.jpg",
+        "1104-receipt.jpg",
+        "1105-receipt.jpg",
+        "1106-receipt.jpg",
+        "1107-receipt.jpg",
+        "1108-receipt.jpg",
+        "1109-receipt.jpg",
+        "1110-receipt.jpg",
+        "1111-receipt.jpg",
+        "1112-receipt.jpg",
+        "1113-receipt.jpg",
+        "1114-receipt.jpg",
+        "1115-receipt.jpg",
+        "1116-receipt.jpg",
+        "1117-receipt.jpg",
+        "1118-receipt.jpg",
+        "1119-receipt.jpg",
+        "1120-receipt.jpg",
+        "1121-receipt.jpg",
+        "1122-receipt.jpg",
+        "1123-receipt.jpg",
+        "1124-receipt.jpg",
+        "1125-receipt.jpg",
+        "1126-receipt.jpg",
+        "1127-receipt.jpg",
+        "1128-receipt.jpg",
+        "1129-receipt.jpg",
+        "1130-receipt.jpg",
+        "1131-receipt.jpg",
+        "1132-receipt.jpg",
+        "1133-receipt.jpg",
+        "1134-receipt.jpg",
+        "1135-receipt.jpg",
+        "1136-receipt.jpg",
+        "1137-receipt.jpg",
+        "1138-receipt.jpg",
+        "1139-receipt.jpg",
+        "1140-receipt.jpg",
+        "1141-receipt.jpg",
+        "1142-receipt.jpg",
+        "1143-receipt.jpg",
+        "1144-receipt.jpg",
+        "1145-receipt.jpg",
+        "1146-receipt.jpg",
+        "1147-receipt.jpg",
+        "1148-receipt.jpg",
+        "1149-receipt.jpg",
+        "1150-receipt.jpg",
+        "1151-receipt.jpg",
+        "1152-receipt.jpg",
+        "1153-receipt.jpg",
+        "1154-receipt.jpg",
+        "1155-receipt.jpg",
+        "1156-receipt.jpg",
+        "1157-receipt.jpg",
+        "1158-receipt.jpg",
+        "1159-receipt.jpg",
+        "1160-receipt.jpg",
+        "1161-receipt.jpg",
+        "1162-receipt.jpg",
+        "1163-receipt.jpg",
+        "1164-receipt.jpg",
+        "1165-receipt.jpg",
+        "1166-receipt.jpg",
+        "1167-receipt.jpg",
+        "1168-receipt.jpg",
+        "1169-receipt.jpg",
+        "1170-receipt.jpg",
+        "1171-receipt.jpg",
+        "1172-receipt.jpg",
+        "1173-receipt.jpg",
+        "1174-receipt.jpg",
+        "1175-receipt.jpg",
+        "1176-receipt.jpg",
+        "1177-receipt.jpg",
+        "1178-receipt.jpg",
+        "1179-receipt.jpg",
+        "1180-receipt.jpg",
+        "1181-receipt.jpg",
+        "1182-receipt.jpg",
+        "1183-receipt.jpg",
+        "1184-receipt.jpg",
+        "1185-receipt.jpg",
+        "1186-receipt.jpg",
+        "1187-receipt.jpg",
+        "1188-receipt.jpg",
+        "1189-receipt.jpg",
+        "1190-receipt.jpg",
+        "1191-receipt.jpg",
+        "1192-receipt.jpg",
+        "1193-receipt.jpg",
+        "1194-receipt.jpg",
+        "1195-receipt.jpg",
+        "1196-receipt.jpg",
+        "1197-receipt.jpg",
+        "1198-receipt.jpg",
+        "1199-receipt.jpg"
+      ],
+      "workers": 4,
+      "options": {
+        "dateOrder": "MDY",
+        "debug": true
+      },
+      "nativeWebAssembly": false,
+      "runtimeNetwork": false,
+      "workersInRuntime": false
+    },
+    "fields": {
+      "merchant": {
+        "correct": 89,
+        "visible": 194,
+        "visibleCorrect": 89,
+        "falsePositivesOnUnavailableFields": 6
+      },
+      "date": {
+        "correct": 164,
+        "visible": 186,
+        "visibleCorrect": 154,
+        "falsePositivesOnUnavailableFields": 4
+      },
+      "currencySymbol": {
+        "correct": 178,
+        "visible": 102,
+        "visibleCorrect": 98,
+        "falsePositivesOnUnavailableFields": 18
+      },
+      "tax": {
+        "correct": 170,
+        "visible": 186,
+        "visibleCorrect": 156,
+        "falsePositivesOnUnavailableFields": 0
+      },
+      "total": {
+        "correct": 163,
+        "visible": 196,
+        "visibleCorrect": 160,
+        "falsePositivesOnUnavailableFields": 1
+      }
+    }
+  },
+  "receipts": [
+    {
+      "file": "1000-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1001-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "GRAND LUX CAFE",
+          "actual": "Roosevelt Field"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1002-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Taco Bell",
+          "actual": "i [aco Bell i734"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1003-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "El Gran Mar de Plata",
+          "actual": "El ran Mar de Plata"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1004-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "GOLDEN BOWL TERIYAKI",
+          "actual": "bese BOWL TERIYAKI"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1005-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1006-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "date",
+          "expected": "2016-11-16",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1007-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Printed Total is primary; handwritten 153.71 is separate"
+    },
+    {
+      "file": "1008-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Date not printed"
+    },
+    {
+      "file": "1009-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Bella Pasta",
+          "actual": "ella Paste"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1010-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Friendly Red's of Windham",
+          "actual": "Friendly Red’ s"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1011-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Smoke City Market",
+          "actual": "Quick awe ity Market"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1012-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Final total includes service charge"
+    },
+    {
+      "file": "1013-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "ALBETOS MEXICAN FOOD",
+          "actual": "MEXICAN FOOD"
+        }
+      ],
+      "notes": "Date not printed"
+    },
+    {
+      "file": "1014-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1015-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "HAMMOCKS TRADING COMPANY",
+          "actual": "Sandy Springs, Georgia"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1016-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1017-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "UMIX",
+          "actual": "Description"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1018-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 0.17,
+          "actual": 2
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1019-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Gratto Pizzeria & Tavern",
+          "actual": "Mettg Pizzeria & Tavern"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1020-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Final total includes tip"
+    },
+    {
+      "file": "1021-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1022-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 3.01,
+          "actual": 8.75
+        }
+      ],
+      "notes": "Includes separate service charge"
+    },
+    {
+      "file": "1023-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1024-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Printed date is malformed"
+    },
+    {
+      "file": "1025-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "McDonald's",
+          "actual": "McDonald’: 3° ap act"
+        },
+        {
+          "field": "date",
+          "expected": "2019-02-17",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1026-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "CHRIS'S HAMBURGERS",
+          "actual": "Ree"
+        },
+        {
+          "field": "date",
+          "expected": "2018-07-22",
+          "actual": null
+        },
+        {
+          "field": "currencySymbol",
+          "expected": "$",
+          "actual": null
+        },
+        {
+          "field": "tax",
+          "expected": 4.39,
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 51.82,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1027-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Longboards",
+          "actual": "WAMU, HAWAII"
+        },
+        {
+          "field": "tax",
+          "expected": 1.86,
+          "actual": null
+        }
+      ],
+      "notes": "Printed Total is primary; handwritten 44.31 includes gratuity"
+    },
+    {
+      "file": "1028-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "DOUGLAS BURGERS",
+          "actual": "DOUGLAS BURGERS #15"
+        },
+        {
+          "field": "date",
+          "expected": "2019-02-09",
+          "actual": "2018-02-08"
+        },
+        {
+          "field": "total",
+          "expected": 34.21,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1029-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1030-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "VILLA D'ESTE RESTAURANT",
+          "actual": "park"
+        },
+        {
+          "field": "tax",
+          "expected": 7.53,
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 94.78,
+          "actual": 87.25
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1031-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1032-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 0.75,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1033-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Uncle Julio's",
+          "actual": "Ground Beef"
+        }
+      ],
+      "notes": "Merchant printed only in footer"
+    },
+    {
+      "file": "1034-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "la Source",
+          "actual": "lac Yource"
+        },
+        {
+          "field": "date",
+          "expected": null,
+          "actual": "2015-02-08"
+        },
+        {
+          "field": "tax",
+          "expected": 1.55,
+          "actual": 1.33
+        }
+      ],
+      "notes": "Date 02-08-2015 is ambiguous; EURO printed"
+    },
+    {
+      "file": "1035-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Argonaut Diner2000",
+          "actual": "Michael De Maio"
+        },
+        {
+          "field": "date",
+          "expected": null,
+          "actual": "2017-08-13"
+        },
+        {
+          "field": "tax",
+          "expected": 2.13,
+          "actual": null
+        }
+      ],
+      "notes": "Date obscured by screenshot overlay"
+    },
+    {
+      "file": "1036-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "PAPPADEAUX SEAFOOD KITCHEN",
+          "actual": "SEAFOOD KITCHEN"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1037-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Panda Express",
+          "actual": "Store"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1038-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Yogurtland",
+          "actual": "Aeloone to Yogurtland"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        },
+        {
+          "field": "total",
+          "expected": 17.8,
+          "actual": null
+        }
+      ],
+      "notes": "Tax not printed"
+    },
+    {
+      "file": "1039-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "CARL'S JR",
+          "actual": "E Green Chile"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1040-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "SUKHOTHAI SUSHI + ASIAN FUSION",
+          "actual": "SUSHI + ASIAN"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1041-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "la Source",
+          "actual": "lac Yource"
+        },
+        {
+          "field": "date",
+          "expected": null,
+          "actual": "2015-02-08"
+        },
+        {
+          "field": "tax",
+          "expected": 1.55,
+          "actual": 1.33
+        }
+      ],
+      "notes": "Duplicate photo of 1034; ambiguous date"
+    },
+    {
+      "file": "1042-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": null,
+          "actual": "No Cebolla"
+        },
+        {
+          "field": "tax",
+          "expected": 3.44,
+          "actual": 76.78
+        }
+      ],
+      "notes": "Merchant cropped out"
+    },
+    {
+      "file": "1043-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "BK SOUL FOOD & CATERING",
+          "actual": "Bk SOUL FOOD 5 Nia"
+        },
+        {
+          "field": "date",
+          "expected": "2013-06-23",
+          "actual": "2019-06-23"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1044-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 0.95,
+          "actual": 10.94
+        },
+        {
+          "field": "total",
+          "expected": 10.94,
+          "actual": 11
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1045-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "YUM'S RESTAURANT",
+          "actual": "Walk In"
+        },
+        {
+          "field": "date",
+          "expected": "2018-06-24",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1046-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1047-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "730 Tavern Kitchen & Patio",
+          "actual": "Kitchen    latio"
+        },
+        {
+          "field": "date",
+          "expected": "2017-09-23",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1048-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1049-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Receipt Total is split portion; whole check total 77.49"
+    },
+    {
+      "file": "1050-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "HOLLYWOOD CAFE & SPORTS BAR",
+          "actual": "overs: 2 Person#: 1"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        },
+        {
+          "field": "total",
+          "expected": 26.96,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1051-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "GENERAL POOR'S TAVERN",
+          "actual": "TAVERN"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1052-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 94.18,
+          "actual": 34.18
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1053-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Primo Family Restaurant",
+          "actual": " Family Restaurant"
+        },
+        {
+          "field": "date",
+          "expected": "2019-05-03",
+          "actual": null
+        },
+        {
+          "field": "tax",
+          "expected": 2.97,
+          "actual": 2.37
+        }
+      ],
+      "notes": "Amount due zero is payment balance not sale total"
+    },
+    {
+      "file": "1054-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1055-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        }
+      ],
+      "notes": "Date outside photo"
+    },
+    {
+      "file": "1056-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": null,
+          "actual": 12
+        }
+      ],
+      "notes": "Total obscured at lower edge"
+    },
+    {
+      "file": "1057-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1058-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Caldera Brewery & Restaurant",
+          "actual": "88h Dang OR"
+        },
+        {
+          "field": "date",
+          "expected": "2017-12-28",
+          "actual": "2009-02-26"
+        },
+        {
+          "field": "tax",
+          "expected": 1.1,
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 37.6,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1059-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 7.55,
+          "actual": 1.15
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1060-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": null,
+          "actual": "G] Karma Cab Sauv"
+        }
+      ],
+      "notes": "Merchant not printed in photo"
+    },
+    {
+      "file": "1061-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Chili's Grill & Bar",
+          "actual": "Puente Hills #25"
+        },
+        {
+          "field": "date",
+          "expected": "2018-09-15",
+          "actual": "2000-09-15"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1062-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "MARIANOCCI'S RESTAURANT",
+          "actual": "RESTAURANT"
+        },
+        {
+          "field": "date",
+          "expected": "2017-02-18",
+          "actual": "2016-02-04"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1063-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Primo Family Restaurant",
+          "actual": "Family Restaurant f 4"
+        },
+        {
+          "field": "date",
+          "expected": "2019-05-03",
+          "actual": null
+        },
+        {
+          "field": "tax",
+          "expected": 2.97,
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 52.47,
+          "actual": 45.5
+        }
+      ],
+      "notes": "Duplicate scene of 1053"
+    },
+    {
+      "file": "1064-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1065-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1066-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 82,
+          "actual": null
+        }
+      ],
+      "notes": "No tax or currency printed; merchant name not identifiable beyond RISTORANTE"
+    },
+    {
+      "file": "1067-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 40.3,
+          "actual": 36.8
+        }
+      ],
+      "notes": "Date not visible"
+    },
+    {
+      "file": "1068-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Cafe Eugene",
+          "actual": "Albany CA"
+        },
+        {
+          "field": "tax",
+          "expected": 3.9,
+          "actual": 3.3
+        },
+        {
+          "field": "total",
+          "expected": 42.9,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1069-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1070-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Mr. M's Hot Wings & Things Inc",
+          "actual": "Pe ee a eh be ena tan ane    0"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1071-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Trinity Restaurant",
+          "actual": "KKK KKK KOKO OOK OK"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1072-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "OHANA HAWAIIAN BBQ",
+          "actual": "OHANA HAWATTAN BBQ"
+        },
+        {
+          "field": "date",
+          "expected": "2013-06-01",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1073-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Subway",
+          "actual": "Pasatien?, CA,"
+        },
+        {
+          "field": "tax",
+          "expected": 1.23,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1074-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1075-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1076-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1077-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1078-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Tay Ho Oakland",
+          "actual": "Tau Ho Oakianc"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1079-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1080-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1081-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1082-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 6.56,
+          "actual": null
+        }
+      ],
+      "notes": "Only payment amount is labelled"
+    },
+    {
+      "file": "1083-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "King Taco",
+          "actual": "RESTAURANTS, INC."
+        },
+        {
+          "field": "total",
+          "expected": 13.78,
+          "actual": null
+        }
+      ],
+      "notes": "Sale total labelled TO-GO"
+    },
+    {
+      "file": "1084-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Trattoria Saporito",
+          "actual": "Trattoria Sapor io"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1085-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Pita Pita - Lombard",
+          "actual": "Pita Pita - L Awe aer"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1086-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1087-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Noches De Colombia",
+          "actual": "ghoches pe DE Col RNP pepia IKE"
+        },
+        {
+          "field": "date",
+          "expected": "2019-07-09",
+          "actual": null
+        },
+        {
+          "field": "tax",
+          "expected": 0.86,
+          "actual": 10.81
+        },
+        {
+          "field": "total",
+          "expected": 10.81,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1088-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "MOOYAH Burgers Fries Shakes",
+          "actual": "annie moO Shake —i(‘é‘é lds       om"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1089-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "¥"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1090-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "FIVE GUYS",
+          "actual": "Employee: Robert C"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1091-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1092-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Kaiseki Japanese Cuisine",
+          "actual": "Japanese Cuisine"
+        }
+      ],
+      "notes": "Currency symbols only in recommended tips"
+    },
+    {
+      "file": "1093-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "POPEYE'S",
+          "actual": "POPEYE"
+        },
+        {
+          "field": "date",
+          "expected": "2018-11-24",
+          "actual": "2020-06-24"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1094-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Pokeatery CV",
+          "actual": "f Pokeatery CV"
+        }
+      ],
+      "notes": "Tip 1.48 is not tax"
+    },
+    {
+      "file": "1095-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": "$",
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 10.25,
+          "actual": null
+        }
+      ],
+      "notes": "Date not visible"
+    },
+    {
+      "file": "1096-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": null,
+          "actual": "fable:BARY"
+        }
+      ],
+      "notes": "Merchant cropped out"
+    },
+    {
+      "file": "1097-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "EL POLLO LOCO",
+          "actual": "Drive Thru"
+        },
+        {
+          "field": "total",
+          "expected": 13.12,
+          "actual": null
+        }
+      ],
+      "notes": "Only payment amount is labelled"
+    },
+    {
+      "file": "1098-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Nick's Tuscan Grill",
+          "actual": "Grill"
+        },
+        {
+          "field": "date",
+          "expected": "2018-03-18",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1099-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": null,
+          "actual": "Mexican Restaurant & Bar"
+        }
+      ],
+      "notes": "Merchant name cropped out"
+    },
+    {
+      "file": "1100-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "McDonald's",
+          "actual": "QTY IT"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        }
+      ],
+      "notes": "Numeric date order not independently confirmed"
+    },
+    {
+      "file": "1101-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1102-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1103-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Crisfield Seafood Restaurant",
+          "actual": "Restaurant"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1104-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 4.48,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1105-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1106-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 75.15,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1107-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1108-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 52.06,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1109-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Breadfish Cafe",
+          "actual": "1] sb Ape wey"
+        },
+        {
+          "field": "total",
+          "expected": 27.62,
+          "actual": null
+        }
+      ],
+      "notes": "Tax-inclusive final amount labelled Sub-Total"
+    },
+    {
+      "file": "1110-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1111-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "COMMANDER'S PALACE",
+          "actual": "COMMANL"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "¥"
+        },
+        {
+          "field": "total",
+          "expected": 55.95,
+          "actual": 50.5
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1112-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        },
+        {
+          "field": "tax",
+          "expected": 12.87,
+          "actual": 155.87
+        }
+      ],
+      "notes": "Two tax components plus separate service charge"
+    },
+    {
+      "file": "1113-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Golden Panda Buffet",
+          "actual": "a Golden Panda Buffet"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1114-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "la Source",
+          "actual": "lac Yource"
+        },
+        {
+          "field": "date",
+          "expected": null,
+          "actual": "2015-02-08"
+        },
+        {
+          "field": "tax",
+          "expected": 1.55,
+          "actual": 1.33
+        }
+      ],
+      "notes": "Duplicate photo of 1034; ambiguous date"
+    },
+    {
+      "file": "1115-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "date",
+          "expected": "2017-07-15",
+          "actual": null
+        }
+      ],
+      "notes": "Subtotal 79.17 printed but final total blank"
+    },
+    {
+      "file": "1116-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1117-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "KOBE JAPANESE STEAK",
+          "actual": "JAPANESE STEAK"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": "$",
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 173.07,
+          "actual": null
+        }
+      ],
+      "notes": "Handwritten final total; printed amount 158.07 plus handwritten tip 15.00"
+    },
+    {
+      "file": "1118-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Wendy's Restaurant",
+          "actual": "Veggie Sandwich"
+        },
+        {
+          "field": "date",
+          "expected": "2017-03-18",
+          "actual": null
+        },
+        {
+          "field": "tax",
+          "expected": 0.32,
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 4.99,
+          "actual": 4.39
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1119-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Panda Express",
+          "actual": "te PURI"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1120-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1121-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Heart of Portugal Restaurant",
+          "actual": "Heart of Portugal Restaurant My"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1122-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "El Meson Mexican Restaurant",
+          "actual": "Ei Meson Mexican Restaurant"
+        }
+      ],
+      "notes": "Date not visible"
+    },
+    {
+      "file": "1123-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "El Gato Negro",
+          "actual": "fF) Gato Negro"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1124-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1125-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1126-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "SAGE FRENCH CAFE & WINE BAR",
+          "actual": "FRENCH CAFE & WINE BaR"
+        },
+        {
+          "field": "total",
+          "expected": 39.18,
+          "actual": null
+        }
+      ],
+      "notes": "Includes discount and gratuity"
+    },
+    {
+      "file": "1127-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "PIZZA HUT",
+          "actual": "Hand toss"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1128-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1129-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1130-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "BOA",
+          "actual": "Separate checks: 1-of-3"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1131-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "CHRIS'S HAMBURGERS",
+          "actual": "LAMB ROE RS"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1132-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1133-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Date outside photo"
+    },
+    {
+      "file": "1134-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "KFC",
+          "actual": "Restaurant"
+        },
+        {
+          "field": "total",
+          "expected": 21.73,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1135-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1136-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1137-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1138-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1139-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "SS PARADISE",
+          "actual": "Andhra Style Famlily Restaurant"
+        },
+        {
+          "field": "date",
+          "expected": "2017-07-06",
+          "actual": "2027-06-07"
+        }
+      ],
+      "notes": "India date order DMY; tax not itemized"
+    },
+    {
+      "file": "1140-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 1.89,
+          "actual": 1.33
+        }
+      ],
+      "notes": "Date blurry"
+    },
+    {
+      "file": "1141-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "YAUATCHA",
+          "actual": "Restaurant"
+        }
+      ],
+      "notes": "Date not visible"
+    },
+    {
+      "file": "1142-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Blue Bear Tavern",
+          "actual": "alue Bear Tavern"
+        },
+        {
+          "field": "tax",
+          "expected": 2.44,
+          "actual": 0.66
+        },
+        {
+          "field": "total",
+          "expected": 83.44,
+          "actual": null
+        }
+      ],
+      "notes": "Two tax components"
+    },
+    {
+      "file": "1143-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Arthurs",
+          "actual": "oaded hac"
+        },
+        {
+          "field": "date",
+          "expected": "2017-10-01",
+          "actual": null
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1144-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "CHLOE81",
+          "actual": "CHLOES 1"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1145-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "MIGUELS MEXICAN",
+          "actual": "Pie kh; ee"
+        },
+        {
+          "field": "date",
+          "expected": "2012-12-26",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1146-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1147-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "NEW DELHI INDIAN RESTAURANT",
+          "actual": "RESTAURANT"
+        }
+      ],
+      "notes": "Tax not itemized"
+    },
+    {
+      "file": "1148-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 1.19,
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 13.07,
+          "actual": null
+        }
+      ],
+      "notes": "Same tax printed twice"
+    },
+    {
+      "file": "1149-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1150-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "ESQUIRE GRILLE",
+          "actual": "RAMENTO INTL AIRPORT"
+        },
+        {
+          "field": "date",
+          "expected": "2016-04-04",
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 80.45,
+          "actual": null
+        }
+      ],
+      "notes": "Same tax printed twice"
+    },
+    {
+      "file": "1151-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1152-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "KALOOKI'S",
+          "actual": "Octs"
+        }
+      ],
+      "notes": "Service charge is not tax"
+    },
+    {
+      "file": "1153-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1154-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1155-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Marco Pierre White Steakhouse & Grill",
+          "actual": "Steakhouse"
+        },
+        {
+          "field": "date",
+          "expected": "2019-02-16",
+          "actual": null
+        },
+        {
+          "field": "total",
+          "expected": 129.75,
+          "actual": null
+        }
+      ],
+      "notes": "Tax not itemized"
+    },
+    {
+      "file": "1156-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "IKEA",
+          "actual": "RiMER)"
+        },
+        {
+          "field": "date",
+          "expected": "2016-04-06",
+          "actual": null
+        }
+      ],
+      "notes": "GB date order DMY"
+    },
+    {
+      "file": "1157-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "COLLEGE OF SOUTHERN NEVADA RUSSELL'S RESTAURANT",
+          "actual": "RUSSELL'S  RESTAURANT"
+        }
+      ],
+      "notes": "Tax not itemized"
+    },
+    {
+      "file": "1158-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "MITASU JAPANESE RESTAURANT SDN BHD",
+          "actual": "ITASU JAPANESE RESTAURANT SDN BHD"
+        }
+      ],
+      "notes": "Service charge 70.95 is not tax"
+    },
+    {
+      "file": "1159-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Taco Time - Kenmore",
+          "actual": "KENMORE WA"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1160-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1161-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Dominican Restaurant",
+          "actual": "I Ss de Chinola     Boi"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1162-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Juniper & Ivy",
+          "actual": "Ivy"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1163-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1164-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "the Golden Pear Cafe",
+          "actual": "Cafe"
+        },
+        {
+          "field": "date",
+          "expected": "2016-08-06",
+          "actual": null
+        }
+      ],
+      "notes": "Subtotal printed but final total blank"
+    },
+    {
+      "file": "1165-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Tax not itemized"
+    },
+    {
+      "file": "1166-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "PAPPADEAUX SEAFOOD KITCHEN",
+          "actual": "PA APPADEAU X SEAFOOD KITCHEN"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1167-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Casa Rubio Cafe",
+          "actual": "Casa Cafe"
+        },
+        {
+          "field": "date",
+          "expected": "2019-05-21",
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1168-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "CARL'S JR",
+          "actual": "Restaurant"
+        },
+        {
+          "field": "total",
+          "expected": 7.61,
+          "actual": 1.61
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1169-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Delmonico's Italian Steakhouse",
+          "actual": "oussS ty"
+        },
+        {
+          "field": "tax",
+          "expected": 3.44,
+          "actual": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1170-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "©"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1171-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "POP TATES KORUM MALL",
+          "actual": "wwe (8) WUOUD"
+        },
+        {
+          "field": "date",
+          "expected": "2012-12-09",
+          "actual": "2012-09-12"
+        },
+        {
+          "field": "tax",
+          "expected": 24.6,
+          "actual": 24.8
+        }
+      ],
+      "notes": "India DMY date order"
+    },
+    {
+      "file": "1172-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "El Valle Mexican Restaurant",
+          "actual": "TILLAS"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1173-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Lalo's Mexican at Navy Pier",
+          "actual": "Iz ble  SE ee"
+        },
+        {
+          "field": "tax",
+          "expected": 1.71,
+          "actual": 0.15
+        }
+      ],
+      "notes": "Three tax components including restaurant tax 0.04"
+    },
+    {
+      "file": "1174-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "ipanema Brazilian Steak House",
+          "actual": "Brazilian Steak House"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1175-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Bar Louie Huntsville",
+          "actual": "Bar Loujie Huntsville"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1176-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "HEDLEYS",
+          "actual": "WEST HOLLYWOOD CA"
+        }
+      ],
+      "notes": "Amount 41.45 printed but final total blank"
+    },
+    {
+      "file": "1177-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "tax",
+          "expected": 2.75,
+          "actual": 2.15
+        },
+        {
+          "field": "total",
+          "expected": 47.9,
+          "actual": 47.3
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1178-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1179-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1180-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "LIZZY'S",
+          "actual": "settee rrannmerm cre: OG"
+        },
+        {
+          "field": "date",
+          "expected": "2014-08-30",
+          "actual": null
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        },
+        {
+          "field": "tax",
+          "expected": 0.79,
+          "actual": 0.73
+        },
+        {
+          "field": "total",
+          "expected": 12.03,
+          "actual": 12.93
+        }
+      ],
+      "notes": "Same tax printed twice"
+    },
+    {
+      "file": "1181-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1182-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Finnegan's Way",
+          "actual": "HEH ES Hae EH Eada eae Ai FFE FT"
+        },
+        {
+          "field": "total",
+          "expected": 50.8,
+          "actual": 43.6
+        }
+      ],
+      "notes": "Includes voluntary tip in final printed total"
+    },
+    {
+      "file": "1183-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1184-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": null,
+          "actual": "MAIN DINING"
+        }
+      ],
+      "notes": "Merchant cropped out"
+    },
+    {
+      "file": "1185-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1186-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Primo Family Restaurant",
+          "actual": "Family Restau rant"
+        },
+        {
+          "field": "date",
+          "expected": "2019-05-03",
+          "actual": "2019-09-03"
+        },
+        {
+          "field": "total",
+          "expected": 52.47,
+          "actual": 22.47
+        }
+      ],
+      "notes": "Duplicate scene of 1053"
+    },
+    {
+      "file": "1187-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Spiral Diner & Bakery",
+          "actual": "Real Smooth        le"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1188-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1189-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": ""
+    },
+    {
+      "file": "1190-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Printed Total is primary; handwritten 154.00 is separate"
+    },
+    {
+      "file": "1191-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "total",
+          "expected": 29.98,
+          "actual": 29.99
+        }
+      ],
+      "notes": "Separate tip printed but no final total including tip visible"
+    },
+    {
+      "file": "1192-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "BJ'S",
+          "actual": "Shae Ono\" o"
+        },
+        {
+          "field": "date",
+          "expected": "2017-09-30",
+          "actual": null
+        },
+        {
+          "field": "currencySymbol",
+          "expected": null,
+          "actual": "$"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1193-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Marie Callender's Restaurant",
+          "actual": "Store"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "file": "1194-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "date",
+          "expected": "2018-08-17",
+          "actual": "2016-08-17"
+        }
+      ],
+      "notes": "Tax not itemized"
+    },
+    {
+      "file": "1195-receipt.jpg",
+      "tested": true,
+      "passed": true,
+      "differences": [],
+      "notes": "Per-seat taxes and totals also printed; use overall tax once"
+    },
+    {
+      "file": "1196-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": null,
+          "actual": "NAME: CHARES"
+        }
+      ],
+      "notes": "Merchant cropped out; printed total before tip"
+    },
+    {
+      "file": "1197-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "BAR RISTORANTE STABILIMENTO MARINO E TERMALE SAN MONTANO S.R.L.",
+          "actual": "rsToRAntt"
+        },
+        {
+          "field": "currencySymbol",
+          "expected": "€",
+          "actual": null
+        }
+      ],
+      "notes": "Tax not itemized"
+    },
+    {
+      "file": "1198-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "STK Miami Beach",
+          "actual": "Dining"
+        },
+        {
+          "field": "date",
+          "expected": "2017-08-25",
+          "actual": null
+        }
+      ],
+      "notes": "Three tax components"
+    },
+    {
+      "file": "1199-receipt.jpg",
+      "tested": true,
+      "passed": false,
+      "differences": [
+        {
+          "field": "merchant",
+          "expected": "Nonna",
+          "actual": "COCCOSOOCRE ERECT eRe ee eee eee TeReeeeeeEee"
+        },
+        {
+          "field": "tax",
+          "expected": 10.33,
+          "actual": -40.33
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}

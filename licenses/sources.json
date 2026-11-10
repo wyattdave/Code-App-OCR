@@ -1,0 +1,107 @@
+[
+  {
+    "component": "Tesseract.js-core 3.0.1",
+    "file": "licenses/tesseract-core.txt",
+    "source": "https://raw.githubusercontent.com/naptha/tesseract.js-core/v3.0.1/LICENSE",
+    "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+  },
+  {
+    "component": "Tesseract 4.1.1-based engine",
+    "file": "licenses/tesseract.txt",
+    "source": "https://raw.githubusercontent.com/jeromewu/tesseract/91b8bd30daf2bb8eb0fe4283a6225d589a50bb9c/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "tessdata_fast 4.1.0 English model",
+    "file": "licenses/english-model.txt",
+    "source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/4.1.0/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "component": "fflate 0.8.3",
+    "file": "licenses/fflate.txt",
+    "source": "https://registry.npmjs.org/fflate/-/fflate-0.8.3.tgz",
+    "sha256": "0a1df3a083d0c010560aa342e87959c8c1070e6fd54545741f083f22d0c8b551",
+    "note": "Exact LICENSE from the pinned npm package."
+  },
+  {
+    "component": "Leptonica 1.74.2",
+    "file": "licenses/leptonica.txt",
+    "source": "https://raw.githubusercontent.com/jeromewu/leptonica/6b5bbc8606491d0348a7c955d4eac39f032a22f7/leptonica-license.txt",
+    "sha256": "ca0ac11c7c0acad9599d54990942cc11c9f6d9b569f1a360d774a628819c3518"
+  },
+  {
+    "component": "zlib 1.2.5",
+    "file": "licenses/zlib.txt",
+    "source": "https://raw.githubusercontent.com/madler/zlib/9712272c78b9d9c93746d9c8e156a3728c65ca72/README",
+    "sha256": "1a09937f90583e12e43aeba0e5ed422b77bc5a879a481c9dbf37b3f3e880b38b"
+  },
+  {
+    "component": "libpng 1.4.22",
+    "file": "licenses/libpng.txt",
+    "source": "https://raw.githubusercontent.com/glennrp/libpng/d53f4696fff0b576a404b6c917392467ffc5df1a/LICENSE",
+    "sha256": "cd12ac9ba28b9f2293f24847eb6f040cae5456ac393a2dd8b2abc00608b02171"
+  },
+  {
+    "component": "IJG libjpeg 8d",
+    "file": "licenses/libjpeg.txt",
+    "source": "https://raw.githubusercontent.com/LuaDist/libjpeg/96494cfa9de89eb48cdfe79653c15edf844a46c0/README",
+    "sha256": "b68cc28ec436dd38ba1db9fb7f706f990d794df923629785a69f1154b8f44411"
+  },
+  {
+    "component": "libtiff 3.9.4",
+    "file": "licenses/libtiff.txt",
+    "source": "https://gitlab.com/libtiff/libtiff/-/raw/5ebb9f949b96993238ddef55b7601db3d9989d41/COPYRIGHT",
+    "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7"
+  },
+  {
+    "component": "Emscripten 1.39.10",
+    "file": "licenses/emscripten.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/LICENSE",
+    "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+  },
+  {
+    "component": "Emscripten 1.39.10 authors",
+    "file": "licenses/emscripten-authors.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/AUTHORS",
+    "sha256": "5089e0f580f7b51636abcc55879203806495e8a12b48c81fcfc29d06cd30aa57"
+  },
+  {
+    "component": "musl libc bundled with Emscripten 1.39.10",
+    "file": "licenses/musl.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/system/lib/libc/musl/COPYRIGHT",
+    "sha256": "70ca142d257e2690a1f8eda8a296e64a6d1b16d8aee6784f8ddcf67f3163635d"
+  },
+  {
+    "component": "LLVM libc++ bundled with Emscripten 1.39.10",
+    "file": "licenses/libcxx.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/system/lib/libcxx/LICENSE.TXT",
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+  },
+  {
+    "component": "LLVM libc++abi bundled with Emscripten 1.39.10",
+    "file": "licenses/libcxxabi.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/system/lib/libcxxabi/LICENSE.TXT",
+    "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c"
+  },
+  {
+    "component": "LLVM compiler-rt bundled with Emscripten 1.39.10",
+    "file": "licenses/compiler-rt.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/system/lib/compiler-rt/LICENSE.TXT",
+    "sha256": "1a8f1058753f1ba890de984e48f0242a3a5c29a6a8f2ed9fd813f36985387e8d"
+  },
+  {
+    "component": "dlmalloc 2.8.6 bundled with Emscripten 1.39.10",
+    "file": "licenses/dlmalloc.txt",
+    "source": "https://raw.githubusercontent.com/emscripten-core/emscripten/1.39.10/system/lib/dlmalloc.c",
+    "sha256": "8defa334f869217fe9d8eaa3fd91621d076ca66ca7fc7453419e286e3dabab72",
+    "note": "Verbatim public-domain dedication and version from the leading source comment, before Quickstart."
+  },
+  {
+    "component": "esbuild 0.28.2 (build-only)",
+    "file": "licenses/esbuild.txt",
+    "source": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+    "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+    "note": "Exact LICENSE.md from the pinned npm package; executable not redistributed."
+  }
+]

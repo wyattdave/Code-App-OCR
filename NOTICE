@@ -1,0 +1,19 @@
+ReceiptOCR
+
+The original receipt parser, browser wrapper, build script, tests, and
+documentation in this repository are licensed under the Apache License,
+Version 2.0. See LICENSE for its full terms.
+
+Third-party code, models, and runtime components retain their respective
+copyrights and licenses. The Apache-2.0 designation for this project does not
+relicense third-party components. See THIRD-PARTY-NOTICES.txt and licenses/.
+
+This software is based in part on the work of the Independent JPEG Group.
+
+Distribution changes: the published Tesseract.js-core asm.js engine is enclosed
+in a private JavaScript scope but otherwise preserved byte-for-byte; the English
+model is gzip-compressed and base64-embedded without changing its contents.
+The fflate synchronous decompressor is bundled and minified. The original
+receipt parser and image wrapper provide a new public API around those components.
+
+ReceiptOCR is not an official Tesseract, Emscripten, or Microsoft product.

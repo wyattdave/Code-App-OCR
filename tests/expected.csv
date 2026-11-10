@@ -1,0 +1,201 @@
+file,merchant,date,currencySymbol,tax,total,notes
+1000-receipt.jpg,GREEN FIELD,2016-05-26,$,4.68,56.58,
+1001-receipt.jpg,GRAND LUX CAFE,2015-04-25,,5.50,69.25,
+1002-receipt.jpg,Taco Bell,2016-09-01,,0.63,7.61,
+1003-receipt.jpg,El Gran Mar de Plata,2017-04-20,$,0.35,5.35,
+1004-receipt.jpg,GOLDEN BOWL TERIYAKI,2019-05-18,$,1.40,15.03,
+1005-receipt.jpg,SASKA'S,2017-08-15,$,12.94,179.94,
+1006-receipt.jpg,Akira,2016-11-16,$,6.93,93.58,
+1007-receipt.jpg,Katana Sushi,2018-05-11,$,12.71,143.71,Printed Total is primary; handwritten 153.71 is separate
+1008-receipt.jpg,Dona Mercedes Restaurant,,$,2.22,24.47,Date not printed
+1009-receipt.jpg,Bella Pasta,2019-08-09,$,2.28,30.76,
+1010-receipt.jpg,Friendly Red's of Windham,2018-07-21,,6.43,77.83,
+1011-receipt.jpg,Smoke City Market,2015-06-26,$,5.32,64.43,
+1012-receipt.jpg,HP Pho Ga,2019-04-01,$,2.11,33.26,Final total includes service charge
+1013-receipt.jpg,ALBETOS MEXICAN FOOD,,$,0.73,9.58,Date not printed
+1014-receipt.jpg,Loaded Cafe,2019-02-23,,4.21,48.53,
+1015-receipt.jpg,HAMMOCKS TRADING COMPANY,2017-03-10,,3.29,50.29,
+1016-receipt.jpg,Chef Wang,2019-02-02,$,2.82,35.52,
+1017-receipt.jpg,UMIX,2016-04-24,,0.84,11.04,
+1018-receipt.jpg,IN-N-OUT BURGER SANTA CLARA,2012-04-27,$,0.17,2.17,
+1019-receipt.jpg,Gratto Pizzeria & Tavern,2017-05-12,$,2.58,45.58,
+1020-receipt.jpg,Deccan Spice,2019-07-26,$,2.98,47.02,Final total includes tip
+1021-receipt.jpg,HAWWI ETHIOPIAN RESTAU,2018-07-13,$,6.91,69.76,
+1022-receipt.jpg,Moonstar Restaurant,2018-10-29,,3.01,37.37,Includes separate service charge
+1023-receipt.jpg,Thai Gusto Restaurant,2017-06-16,$,2.67,30.15,
+1024-receipt.jpg,New Asia Buffet,,,2.80,33.92,Printed date is malformed
+1025-receipt.jpg,McDonald's,2019-02-17,,0.63,7.27,
+1026-receipt.jpg,CHRIS'S HAMBURGERS,2018-07-22,$,4.39,51.82,
+1027-receipt.jpg,Longboards,2019-01-11,$,1.86,41.31,Printed Total is primary; handwritten 44.31 includes gratuity
+1028-receipt.jpg,DOUGLAS BURGERS,2019-02-09,,2.97,34.21,
+1029-receipt.jpg,RINCON MEXICANO,2017-05-09,$,2.03,30.98,
+1030-receipt.jpg,VILLA D'ESTE RESTAURANT,2017-12-08,$,7.53,94.78,
+1031-receipt.jpg,Laurel Tavern Hermosa Beach,2019-01-12,,3.85,44.35,
+1032-receipt.jpg,WINGS & THINGS,2017-03-19,,0.75,9.50,
+1033-receipt.jpg,Uncle Julio's,2019-05-18,,3.26,46.73,Merchant printed only in footer
+1034-receipt.jpg,la Source,,,1.55,17.00,Date 02-08-2015 is ambiguous; EURO printed
+1035-receipt.jpg,Argonaut Diner2000,,$,2.13,26.38,Date obscured by screenshot overlay
+1036-receipt.jpg,PAPPADEAUX SEAFOOD KITCHEN,2017-11-18,,3.91,52.76,
+1037-receipt.jpg,Panda Express,2013-03-16,,13.89,164.89,
+1038-receipt.jpg,Yogurtland,2018-09-07,,,17.80,Tax not printed
+1039-receipt.jpg,CARL'S JR,2016-12-19,$,0.97,13.05,
+1040-receipt.jpg,SUKHOTHAI SUSHI + ASIAN FUSION,2019-04-19,$,1.61,28.04,
+1041-receipt.jpg,la Source,,,1.55,17.00,Duplicate photo of 1034; ambiguous date
+1042-receipt.jpg,,2019-02-11,$,3.44,55.39,Merchant cropped out
+1043-receipt.jpg,BK SOUL FOOD & CATERING,2013-06-23,,2.17,26.67,
+1044-receipt.jpg,CHURCH'S CHICKEN,2019-05-21,,0.95,10.94,
+1045-receipt.jpg,YUM'S RESTAURANT,2018-06-24,,1.25,22.03,
+1046-receipt.jpg,Araxi Burger Aventura,2019-03-17,$,2.14,38.86,
+1047-receipt.jpg,730 Tavern Kitchen & Patio,2017-09-23,,5.57,85.07,
+1048-receipt.jpg,DAILY GRILL,2018-11-01,,8.50,91.45,
+1049-receipt.jpg,KICKIN KAJUN KAPOLEI,2019-07-18,$,3.49,38.75,Receipt Total is split portion; whole check total 77.49
+1050-receipt.jpg,HOLLYWOOD CAFE & SPORTS BAR,2017-09-08,,1.74,26.96,
+1051-receipt.jpg,GENERAL POOR'S TAVERN,2016-04-10,$,0.70,10.70,
+1052-receipt.jpg,Nancy's,2016-09-24,$,7.68,94.18,
+1053-receipt.jpg,Primo Family Restaurant,2019-05-03,$,2.97,52.47,Amount due zero is payment balance not sale total
+1054-receipt.jpg,BIG JO'S,2018-01-25,$,5.25,56.50,
+1055-receipt.jpg,WINGS & THINGS,,,2.43,30.58,Date outside photo
+1056-receipt.jpg,ZOCA RESTAURANT,2019-07-30,,0.00,,Total obscured at lower edge
+1057-receipt.jpg,CAFE PARISIEN LARCHMONT LLC,2019-01-24,$,0.83,9.58,
+1058-receipt.jpg,Caldera Brewery & Restaurant,2017-12-28,,1.10,37.60,
+1059-receipt.jpg,LANDFALL RESTAURANT,2017-06-10,,0.40,7.55,
+1060-receipt.jpg,,2017-12-17,,6.00,83.50,Merchant not printed in photo
+1061-receipt.jpg,Chili's Grill & Bar,2018-09-15,,2.29,26.37,
+1062-receipt.jpg,MARIANOCCI'S RESTAURANT,2017-02-18,,9.76,142.01,
+1063-receipt.jpg,Primo Family Restaurant,2019-05-03,$,2.97,52.47,Duplicate scene of 1053
+1064-receipt.jpg,IN-N-OUT BURGER ESCONDIDO,2013-08-10,$,1.44,19.44,
+1065-receipt.jpg,Taco Maria,2018-01-23,$,3.29,45.79,
+1066-receipt.jpg,RISTORANTE,2019-07-14,,,82.00,No tax or currency printed; merchant name not identifiable beyond RISTORANTE
+1067-receipt.jpg,Anjappar Chettinad Artesia,,,3.50,40.30,Date not visible
+1068-receipt.jpg,Cafe Eugene,2016-04-10,$,3.90,42.90,
+1069-receipt.jpg,River Village Family Restaurant,2019-08-12,$,0.62,10.90,
+1070-receipt.jpg,Mr. M's Hot Wings & Things Inc,2019-06-28,$,0.95,10.95,
+1071-receipt.jpg,Trinity Restaurant,2017-02-18,,6.00,75.50,
+1072-receipt.jpg,OHANA HAWAIIAN BBQ,2013-06-01,$,1.79,21.69,
+1073-receipt.jpg,Subway,2019-05-01,$,1.23,13.22,
+1074-receipt.jpg,Lin Buffet,2019-02-24,,2.57,33.73,
+1075-receipt.jpg,SmokeBoxBBQ,2014-05-22,$,0.86,14.36,
+1076-receipt.jpg,Paradise Restaurant,2018-07-21,$,2.18,25.78,
+1077-receipt.jpg,NAANCHING,2019-03-24,$,3.71,69.79,
+1078-receipt.jpg,Tay Ho Oakland,2019-02-19,$,1.23,14.18,
+1079-receipt.jpg,FALMOUTH RAW BAR,2018-07-02,,15.38,235.19,
+1080-receipt.jpg,Newark Buffet,2019-06-29,,8.20,92.22,
+1081-receipt.jpg,BRASAS RESTAURANT,2019-03-02,$,0.97,9.97,
+1082-receipt.jpg,SURATI FARSAN MART,2019-08-08,,0.57,6.56,Only payment amount is labelled
+1083-receipt.jpg,King Taco,2017-03-17,,1.11,13.78,Sale total labelled TO-GO
+1084-receipt.jpg,Trattoria Saporito,2018-07-01,$,8.24,125.99,
+1085-receipt.jpg,Pita Pita - Lombard,2017-05-04,,15.92,228.92,
+1086-receipt.jpg,Calogero's,2018-04-20,$,12.51,157.51,
+1087-receipt.jpg,Noches De Colombia,2019-07-09,$,0.86,10.81,
+1088-receipt.jpg,MOOYAH Burgers Fries Shakes,2014-03-22,$,1.06,13.03,
+1089-receipt.jpg,Firepoint Grill,2016-12-07,,5.43,142.93,
+1090-receipt.jpg,FIVE GUYS,2017-05-25,$,2.35,32.66,
+1091-receipt.jpg,CITY TASTE,2018-05-11,,1.63,28.78,
+1092-receipt.jpg,Kaiseki Japanese Cuisine,2018-07-28,$,3.45,43.30,Currency symbols only in recommended tips
+1093-receipt.jpg,POPEYE'S,2018-11-24,,2.37,38.23,
+1094-receipt.jpg,Pokeatery CV,2018-12-29,$,1.25,16.23,Tip 1.48 is not tax
+1095-receipt.jpg,Golden Coin,,$,0.46,10.25,Date not visible
+1096-receipt.jpg,,2018-09-25,$,4.08,46.98,Merchant cropped out
+1097-receipt.jpg,EL POLLO LOCO,2017-06-28,,1.06,13.12,Only payment amount is labelled
+1098-receipt.jpg,Nick's Tuscan Grill,2018-03-18,,5.39,67.89,
+1099-receipt.jpg,,2017-12-29,,5.46,64.52,Merchant name cropped out
+1100-receipt.jpg,McDonald's,2018-03-10,,1.11,26.15,Numeric date order not independently confirmed
+1101-receipt.jpg,KAZ RAMEN,2018-11-04,$,1.01,14.06,
+1102-receipt.jpg,OM INDIAN FOOD,2016-04-15,$,1.32,16.24,
+1103-receipt.jpg,Crisfield Seafood Restaurant,2017-12-29,$,2.31,42.74,
+1104-receipt.jpg,Don Juan Mexican Restaurant,2013-11-06,$,4.48,56.38,
+1105-receipt.jpg,The Place 2 Be,2018-02-17,$,1.37,22.87,
+1106-receipt.jpg,Lan Sheng,2017-06-13,$,4.90,75.15,
+1107-receipt.jpg,MIKUNI JAPANESE,2017-07-16,,10.38,144.28,
+1108-receipt.jpg,Go Mongo BBQ,2018-01-28,$,3.52,52.06,
+1109-receipt.jpg,Breadfish Cafe,2017-06-14,$,2.28,27.62,Tax-inclusive final amount labelled Sub-Total
+1110-receipt.jpg,Chelokababi,2018-08-18,$,13.22,160.07,
+1111-receipt.jpg,COMMANDER'S PALACE,2019-03-12,,5.45,55.95,
+1112-receipt.jpg,COLUMBUS RESTAURANT,2018-01-27,,12.87,184.47,Two tax components plus separate service charge
+1113-receipt.jpg,Golden Panda Buffet,2018-06-02,,2.60,29.96,
+1114-receipt.jpg,la Source,,,1.55,17.00,Duplicate photo of 1034; ambiguous date
+1115-receipt.jpg,Rosebud on Rush,2017-07-15,,,,Subtotal 79.17 printed but final total blank
+1116-receipt.jpg,Villaggio Grille,2019-06-08,,3.11,34.12,
+1117-receipt.jpg,KOBE JAPANESE STEAK,2019-02-22,$,,173.07,Handwritten final total; printed amount 158.07 plus handwritten tip 15.00
+1118-receipt.jpg,Wendy's Restaurant,2017-03-18,$,0.32,4.99,
+1119-receipt.jpg,Panda Express,2017-12-22,,2.24,27.44,
+1120-receipt.jpg,RED & HOT II,2018-10-20,,1.91,23.46,
+1121-receipt.jpg,Heart of Portugal Restaurant,2017-09-10,$,5.68,71.58,
+1122-receipt.jpg,El Meson Mexican Restaurant,,$,3.50,47.70,Date not visible
+1123-receipt.jpg,El Gato Negro,2019-08-23,,2.01,21.76,
+1124-receipt.jpg,Firefly American Bistro,2018-12-28,$,5.84,83.64,
+1125-receipt.jpg,CHATPATA RESTAURANT INC,2019-03-19,$,1.25,19.10,
+1126-receipt.jpg,SAGE FRENCH CAFE & WINE BAR,2015-06-02,,1.80,39.18,Includes discount and gratuity
+1127-receipt.jpg,PIZZA HUT,2018-10-25,,2.32,26.76,
+1128-receipt.jpg,KALAVERAS - BELLFLOWER,2019-08-30,$,5.99,68.99,
+1129-receipt.jpg,HIRO JAPANESE RESTAURANT,2018-02-13,$,1.28,17.18,
+1130-receipt.jpg,BOA,2017-12-20,,4.09,47.09,
+1131-receipt.jpg,CHRIS'S HAMBURGERS,2017-11-24,$,2.46,28.31,
+1132-receipt.jpg,VIA EMILIA 9,2017-04-27,$,5.10,61.80,
+1133-receipt.jpg,MOONSTAR RESTAURANT,,,12.11,146.57,Date outside photo
+1134-receipt.jpg,KFC,2016-07-08,$,1.73,21.73,
+1135-receipt.jpg,E. BALDI,2018-01-30,$,12.73,146.73,
+1136-receipt.jpg,The Shawarma Factory,2019-04-10,$,1.14,13.13,
+1137-receipt.jpg,Maui Teriyaki,2017-10-25,$,1.23,14.17,
+1138-receipt.jpg,CASA CHAN RESTAURANT,2014-12-21,$,1.70,25.94,
+1139-receipt.jpg,SS PARADISE,2017-07-06,,,617.00,India date order DMY; tax not itemized
+1140-receipt.jpg,SHAKE SHACK,,,1.89,25.47,Date blurry
+1141-receipt.jpg,YAUATCHA,,$,3.82,88.62,Date not visible
+1142-receipt.jpg,Blue Bear Tavern,2012-01-13,,2.44,83.44,Two tax components
+1143-receipt.jpg,Arthurs,2017-10-01,,3.98,84.78,
+1144-receipt.jpg,CHLOE81,2018-08-03,$,3.19,46.40,
+1145-receipt.jpg,MIGUELS MEXICAN,2012-12-26,,4.27,65.14,
+1146-receipt.jpg,Rihanna's Caribbean Restaurant,2018-08-12,$,1.01,13.26,
+1147-receipt.jpg,NEW DELHI INDIAN RESTAURANT,2016-11-24,$,,13.00,Tax not itemized
+1148-receipt.jpg,Sonic America's Drive-In,2018-06-22,,1.19,13.07,Same tax printed twice
+1149-receipt.jpg,Denny's Restaurant,2015-08-30,,0.30,5.29,
+1150-receipt.jpg,ESQUIRE GRILLE,2016-04-04,$,5.96,80.45,Same tax printed twice
+1151-receipt.jpg,Collector's Choice Restaurant,2019-04-10,$,1.14,13.53,
+1152-receipt.jpg,KALOOKI'S,2015-03-14,$,,62.70,Service charge is not tax
+1153-receipt.jpg,Gordon Ramsay Steak,2014-10-21,,23.49,313.49,
+1154-receipt.jpg,Via Mar Restaurant,2018-09-06,$,6.35,73.24,
+1155-receipt.jpg,Marco Pierre White Steakhouse & Grill,2019-02-16,,,129.75,Tax not itemized
+1156-receipt.jpg,IKEA,2016-04-06,,2.48,14.85,GB date order DMY
+1157-receipt.jpg,COLLEGE OF SOUTHERN NEVADA RUSSELL'S RESTAURANT,2014-10-08,,,9.70,Tax not itemized
+1158-receipt.jpg,MITASU JAPANESE RESTAURANT SDN BHD,2018-06-29,,0.00,780.45,Service charge 70.95 is not tax
+1159-receipt.jpg,Taco Time - Kenmore,2018-04-24,$,0.60,6.59,
+1160-receipt.jpg,Angelo's Pizza Restaurant,2017-07-10,$,1.89,33.34,
+1161-receipt.jpg,Dominican Restaurant,2018-11-10,$,2.74,53.23,
+1162-receipt.jpg,Juniper & Ivy,2016-10-06,,24.72,333.72,
+1163-receipt.jpg,BEN'S BAYSIDE,2017-03-05,,3.37,41.32,
+1164-receipt.jpg,the Golden Pear Cafe,2016-08-06,,,,Subtotal printed but final total blank
+1165-receipt.jpg,EL CHICO MEXICAN RESTAURANT,2016-11-12,,,117.00,Tax not itemized
+1166-receipt.jpg,PAPPADEAUX SEAFOOD KITCHEN,2017-01-07,,3.21,42.16,
+1167-receipt.jpg,Casa Rubio Cafe,2019-05-21,$,2.75,33.75,
+1168-receipt.jpg,CARL'S JR,2017-09-27,,0.61,7.61,
+1169-receipt.jpg,Delmonico's Italian Steakhouse,2015-08-22,,3.44,46.39,
+1170-receipt.jpg,Buca di Beppo,2016-07-15,,9.02,109.28,
+1171-receipt.jpg,POP TATES KORUM MALL,2012-12-09,,24.60,523.00,India DMY date order
+1172-receipt.jpg,El Valle Mexican Restaurant,2017-12-02,$,1.36,17.75,
+1173-receipt.jpg,Lalo's Mexican at Navy Pier,2017-08-24,$,1.71,16.56,Three tax components including restaurant tax 0.04
+1174-receipt.jpg,ipanema Brazilian Steak House,2018-04-13,$,2.94,55.38,
+1175-receipt.jpg,Bar Louie Huntsville,2015-07-03,,1.31,7.56,
+1176-receipt.jpg,HEDLEYS,2017-06-05,$,,,Amount 41.45 printed but final total blank
+1177-receipt.jpg,El Charro Cafe Ventana,2018-06-24,,2.75,47.90,
+1178-receipt.jpg,Gourdough's Public House,2017-01-21,,0.91,11.91,
+1179-receipt.jpg,FourthStreetMill,2018-09-29,$,4.70,54.20,
+1180-receipt.jpg,LIZZY'S,2014-08-30,,0.79,12.03,Same tax printed twice
+1181-receipt.jpg,DEL FRISCO'S,2016-04-07,,35.86,439.86,
+1182-receipt.jpg,Finnegan's Way,2017-08-21,,3.60,50.80,Includes voluntary tip in final printed total
+1183-receipt.jpg,JALISCO,2019-05-19,,0.74,10.00,
+1184-receipt.jpg,,2013-03-22,,15.35,193.35,Merchant cropped out
+1185-receipt.jpg,JT's Diner,2016-02-12,,2.10,28.40,
+1186-receipt.jpg,Primo Family Restaurant,2019-05-03,$,2.97,52.47,Duplicate scene of 1053
+1187-receipt.jpg,Spiral Diner & Bakery,2019-06-16,$,3.84,50.38,
+1188-receipt.jpg,New China,2016-03-12,,2.01,26.96,
+1189-receipt.jpg,MIGUELS MEXICAN,2017-07-05,,1.78,27.08,
+1190-receipt.jpg,Bombay Grill House,2018-06-30,$,9.66,118.46,Printed Total is primary; handwritten 154.00 is separate
+1191-receipt.jpg,MOD Pizza,2019-05-19,$,2.53,29.98,Separate tip printed but no final total including tip visible
+1192-receipt.jpg,BJ'S,2017-09-30,,3.39,37.29,
+1193-receipt.jpg,Marie Callender's Restaurant,2014-11-30,,1.42,19.19,
+1194-receipt.jpg,Bar Rua,2018-08-17,,,65.10,Tax not itemized
+1195-receipt.jpg,Amici Conyers,2018-06-10,,2.21,33.75,Per-seat taxes and totals also printed; use overall tax once
+1196-receipt.jpg,,2018-12-31,$,3.30,58.30,Merchant cropped out; printed total before tip
+1197-receipt.jpg,BAR RISTORANTE STABILIMENTO MARINO E TERMALE SAN MONTANO S.R.L.,2018-08-28,€,,34.00,Tax not itemized
+1198-receipt.jpg,STK Miami Beach,2017-08-25,$,12.78,154.78,Three tax components
+1199-receipt.jpg,Nonna,2012-08-21,,10.33,128.33,
